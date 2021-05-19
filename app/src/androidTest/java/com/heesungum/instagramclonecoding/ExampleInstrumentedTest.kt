@@ -1,4 +1,4 @@
-package com.heesungum.insta_clone_coding
+package com.heesungum.instagramclonecoding
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

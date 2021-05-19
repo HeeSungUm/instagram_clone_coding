@@ -1,4 +1,4 @@
-package com.heesungum.insta_clone_coding
+package com.heesungum.instagramclonecoding
 
 import org.junit.Test
 
