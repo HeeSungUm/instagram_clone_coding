@@ -1,4 +1,4 @@
-package com.heesungum.insta_clone_coding
+package com.heesungum.instagramclonecoding
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
@@ -9,7 +9,7 @@ class PagerAdapter(fragmentActivity: FragmentActivity) : FragmentStateAdapter(fr
 
     override fun createFragment(position: Int): Fragment {
         return when(position) {
-            0 -> HomeFragment()
+            0 -> TimeLineFragment()
             1 -> SearchFragment()
             2 -> ReelsFragment()
             3 -> ShopFragment()

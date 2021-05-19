@@ -1,8 +1,7 @@
-package com.heesungum.insta_clone_coding
+package com.heesungum.instagramclonecoding
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.ViewPager2
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
@@ -14,7 +13,6 @@ class MainActivity : AppCompatActivity() {
 
         val viewPager2 : ViewPager2 = findViewById(R.id.pager)
         val tabLayout : TabLayout = findViewById(R.id.tab_layout)
-        val recyclerView : RecyclerView = findViewById(R.id.timeline_rv)
 
 
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.heesungum.insta_clone_coding">
-
+    package="com.heesungum.instagramclonecoding">
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Instagram_clone_coding">
-        <activity android:name="com.heesungum.insta_clone_coding.MainActivity">
+        <activity android:name="com.heesungum.instagramclonecoding.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
