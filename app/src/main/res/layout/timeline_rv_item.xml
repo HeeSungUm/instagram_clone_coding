@@ -19,5 +19,13 @@
         app:layout_constraintBottom_toBottomOf="@id/profile_civ"
         app:layout_constraintLeft_toRightOf="@id/profile_civ"
         android:layout_marginStart="16dp"/>
+    <ImageView
+        android:id="@+id/timeline_main_iv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        app:layout_constraintTop_toBottomOf="@id/profile_civ"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
